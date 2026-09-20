@@ -90,11 +90,10 @@ header {
   align-items: center;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: #000;
+.logo img{
+    display: inline-block;
+    height: 60px;
+    width: auto;
 }
 
 nav ul {
@@ -600,9 +599,21 @@ footer {
     flex-wrap: wrap;
   }
 
-  .logo {
-    font-size: 1.25rem;
-  }
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img:first-child{
+    height: 55px;   
+    width: auto;
+}
+
+.logo img:last-child{
+    height: 120px;   
+    width: auto;
+}
 
   nav {
     width: 100%;
